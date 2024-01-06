@@ -1,0 +1,74 @@
+header {
+    background-image: url("../img/bg-rectangle.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 930px;
+    padding-top: 60px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    width: calc(50% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+nav a {
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    margin-right: 25px;
+}
+
+nav a:last-child {
+    margin-right: 0;    
+}
+
+.logo {
+    margin-left: 25px;
+}
+
+.icon-header {
+    width: calc(50% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-header a {
+    display: inline-block;
+    width: 41px;
+    height: 41px;
+    background-position-y: center;
+    margin-right: 20px;
+}
+
+.icon-header a:last-child {
+    margin-right: 0;
+}
+
+.icon-twitter {
+    background-image: url(../img/sprite-header-icons.svg);
+    background-position-x: 1px;
+    background-size: 166px;
+}
+
+.icon-fb {
+    background-image: url(../img/sprite-header-icons.svg);
+    background-position-x: -62px;
+    background-size: 166px;
+}
+
+.icon-linkedIn {
+    background-image: url(../img/sprite-header-icons.svg);
+    background-position-x: -125px;
+    background-size: 166px;
+}
